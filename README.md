@@ -6,6 +6,7 @@
     <li>기본 태그 정리</li>
     <li>ol, ul, li</li>
   </ul>
+  <br>
   <li>2주차</li>
   <ul>
     <li>semantic tags</li>
