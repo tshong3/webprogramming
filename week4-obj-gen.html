@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
         document.write("<h3>1. 직접 객체 만들기</h3>");
@@ -13,13 +15,13 @@
         ob_student.engNmae = "Web Programming";
         ob_student.classCode = "V024003";
         ob_student.nStudent = 0;
-        ob_student.register = function() {
+        ob_student.register = function () {
             this.nStudent += 1;
         }
-        ob_student.unregister = function() {
+        ob_student.unregister = function () {
             this.nStudent -= 1;
         }
-        ob_student.getStudentCount = function() {
+        ob_student.getStudentCount = function () {
             return this.nStudent;
         }
         document.write("교과목 이름 = " + ob_student.korName + "<br>");
@@ -30,17 +32,17 @@
 
         document.write("<h3>2. 리터럴 표기법</h3>");
         let li_student = {
-            korName : "웹프로그래밍",
-            engName : "Web Programming",
-            classCode : "V024003",
-            nStudent : 0,
-            register : function() {
+            korName: "웹프로그래밍",
+            engName: "Web Programming",
+            classCode: "V024003",
+            nStudent: 0,
+            register: function () {
                 this.nStudent += 1;
             },
-            unregister : function() {
+            unregister: function () {
                 this.nStudent -= 1;
             },
-            getStudentCount : function() {
+            getStudentCount: function () {
                 return this.nStudent;
             }
         };
@@ -56,21 +58,23 @@
             this.engName = engName;
             this.classCode = classCode;
             this.nStudent = nStudent;
-        }
-        pr_student.prototype.register = function() {
-            this.nStudent += 1;
-        }
-        pr_student.prototype.unregister = function() {
-            this.nStudent -= 1;
-        }
-        pr_student.prototype.getStudentCount = function() {
-            return this.nStudent;
+            this.register = function () {
+                this.nStudent += 1;
+            }
+            this.unregister = function () {
+                this.nStudent -= 1;
+            }
+            this.getStudentCount = function () {
+                return this.nStudent;
+            }
         }
         let web_student = new pr_student("웹프로그래밍", "Web Programming", "V024003", 0);
+
         document.write("교과목 이름 = " + web_student.korName + "<br>");
         document.write("등록 학생 수 = " + web_student.getStudentCount() + "<br>");
         web_student.register();
         document.write("after register, 등록 학생 수 = ", web_student.getStudentCount());
     </script>
 </body>
+
 </html>
