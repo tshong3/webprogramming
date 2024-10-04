@@ -17,11 +17,21 @@
   <br>
   <li>3주차</li>
   <ul>
-    <li>css</li>
+    <li>CSS3 style</li>
+    <li>margin, padding</li>
+    <li>display : block, inline, flex, grid</li>
+    <li>position : absolute, relative, fixed, float</li>
   </ul>
   <br>
   <li>4주차</li>
   <ul>
-    <li>객체 생성</li>
+    <li>3가지 객체 생성 방법</li>
+    <li>직접 생성, 리터럴, 프로토타입</li>
+  </ul>
+  <li>5주차</li>
+  <ul>
+    <li>onclick 이벤트</li>
+    <li>getElementById, createElement</li>
+    <li>appendChild, removeChild, setAttribute</li>
   </ul>
 </ul>
