@@ -35,4 +35,11 @@
     <li>getElementById, createElement</li>
     <li>appendChild, removeChild, setAttribute</li>
   </ul>
+  <br>
+  <li>6주차</li>
+  <ul>
+    <li>이벤트 리스너 작성 방법</li>
+    <li>이벤트의 흐름</li>
+    <li>onload, form event listener, mosue/key event</li>
+  </ul>
 </ul>
