@@ -40,6 +40,6 @@
   <ul>
     <li>이벤트 리스너 작성 방법</li>
     <li>이벤트의 흐름</li>
-    <li>onload, form event listener, mosue/key event</li>
+    <li>onload, form event listener, mosue/key event(onkeydown)</li>
   </ul>
 </ul>
