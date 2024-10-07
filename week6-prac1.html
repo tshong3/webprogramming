@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습문제 9-2</title>
+    <script>
+        // 처음 작성했던 방법
+        function findChecked() {
+            let found = null;
+            let kfruit = document.getElementsByName("fruit");
+            for (let i = 0; i < kfruit.length; i++) {
+                if (kfruit[i].checked == true)
+                    found = kfruit[i];
+            }
+            let img = document.getElementById("fruitimage");
+            img.src = found.value;
+        }
+
+        // 교수님이 알려주신 방법
+        function showImage(o) {
+            let newimg = document.getElementById('newimg');
+            if (newimg != null) {
+                newimg.parentElement.removeChild(newimg);
+            }
+            let img = new Image();
+            img.src = o.value;
+            let parent = document.getElementById('parent');
+            parent.appendChild(img);
+            img.setAttribute('id', 'newimg');
+        }
+    </script>
+</head>
+
+<body>
+    <h3>라디오 버튼을 클릭하면 이미지를 출력합니다.</h3>
+    <hr>
+    <form id="parent">
+        <input type="radio" name="fruit" value="media/banana.jfif" onclick="showImage(this)">바나나
+        <input type="radio" name="fruit" value="media/mango.jfif" onclick="showImage(this)">망고
+        <input type="radio" name="fruit" value="media/apple.jfif" onclick="showImage(this)">사과
+        <br>
+    </form>
+
+    <!--<img id="fruitimage" src="media/banana.jfif" alt="">-->
+</body>
+
+</html>
