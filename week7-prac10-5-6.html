@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*
+        function startClock() {
+            let clock = document.getElementById("clock");
+            timeout(clock);
+        }
+
+        function timeout(obj) {
+            let current = new Date();
+            obj.innerHTML = current.toLocaleTimeString();
+            setTimeout("timeout(clock)", 1000); // 1초 후 timeout() 호출
+        } */
+    </script>
+    <script>
+        let div;
+        let now;
+        let timer;
+        let clockRunning = true;
+
+        function startClock() {
+            div = document.getElementById("clock");
+            now = new Date();
+            timer = setInterval('showTime();', 1000);
+        }
+        function showTime() {
+            now = new Date();
+            div.innerHTML = now.toLocaleTimeString();
+        }
+        function stop_start_clock() {
+            if (clockRunning) {
+                clearInterval(timer);
+                div.style.color = "gray";
+                clockRunning = false;
+            } else {
+                startClock();
+                div.style.color = "black";
+                clockRunning = true;
+            }
+        }
+    </script>
+</head>
+
+<body onload="startClock()">
+    <h3>div 태그에 시계 만들기</h3>
+    <hr>
+    <div id="clock" style="border: 1px solid gray; width:130px;" onclick="stop_start_clock()"></div>
+</body>
+
+</html>
