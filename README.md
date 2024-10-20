@@ -25,6 +25,7 @@
   <br>
   <li>4주차</li>
   <ul>
+    <li>JavaScript</li>
     <li>3가지 객체 생성 방법</li>
     <li>직접 생성, 리터럴, 프로토타입</li>
   </ul>
