@@ -42,12 +42,14 @@
     <li>이벤트의 흐름</li>
     <li>onload, form event listener, mosue/key event(onkeydown)</li>
   </ul>
+  <br>
   <li>7주차</li>
   <ul>
     <li>BOM 객체(window, docuemnt, naviagtor, location, history)</li>
     <li>setTimeout, setInterval</li>
     <li>Canvas</li>
   </ul>
+  <br>
   <li>8주차</li>
   <ul>
     <li>중간고사</li>
