@@ -5,7 +5,7 @@
   <ul>
     <li>기본 태그 정리</li>
     <li>ol, ul, li</li>
-    <li>week1.html : `<h1>, <hr>, <ul>` 등의 기본 태그 사용</li>
+    <li>week1.html : &lt;h1&gt;, &lt;hr&gt;, &lt;ol&gt; 등의 기본 태그 사용</li>
   </ul>
   <br>
   <li>2주차</li>
