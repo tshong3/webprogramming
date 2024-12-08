@@ -116,4 +116,9 @@
     <li>week14-express-app1.js : express 라이브러리를 이용해서 서버 실행시키기</li>
     <li>week14-express-app2.js : get 방식의 데이터 값 받기</li>
   </ul>
+  <br>
+  <li>15주차</li>
+  <ul>
+    <li>기말고사</li>
+  </ul>
 </ul>
