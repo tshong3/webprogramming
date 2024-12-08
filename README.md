@@ -78,6 +78,7 @@
   <ul>
     <li>중간고사</li>
   </ul>
+  <br>
   <li>9주차</li>
   <ul>
     <li>week9-prac12-2-store.html : session storage에 저장하기</li>
@@ -85,26 +86,31 @@
     <li>week9-prac12-4-write.html : local storage에 저장하기</li>
     <li>week9-prac12-4-read.html : local sotrage의 값 불려오기</li>
   </ul>
+  <br>
   <li>10주차</li>
   <ul>
     <li>week10-ex13-9.html : 워크 태스크를 이용해서 합 구하기</li>
     <li>week10-ex13-10.html : 워크 태스크를 이용해서 타이머 만들기</li>
     <li>week10-prac13-6.html : 워크 태스크를 이용해서 곱 구하기</li>
   </ul>
+  <br>
   <li>11주차</li>
   <ul>
     <li>자바스크립트 심화 공부</li>
     <li>Data Types, 변수(var, let), 상수(const), 백틱(`), 화살표 함수(=>)</li>
   </ul>
+  <br>
   <li>12주차</li>
   <ul>
     <li>week12-func-prac.js : 함수형 프로그래밍 연습</li>
   </ul>
+  <br>
   <li>13주차</li>
   <ul>
     <li>week13-webserver1.js : 웹 서버를 한 번에 실행시키기</li>
     <li>week13-webserver2.js : server.on 을 이용해서 분리해서 실행시키기</li>
   </ul>
+  <br>
   <li>14주차</li>
   <ul>
     <li>week14-express-app1.js : express 라이브러리를 이용해서 서버 실행시키기</li>
